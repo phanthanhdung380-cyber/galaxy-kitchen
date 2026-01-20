@@ -11,20 +11,20 @@ $phone    = "4044840250";
 $emailTo  = "galaxyluxurykitchen@mail.com";
 
 // IMPORTANT for SEO: replace with your real domain once hosted
-$siteUrl  = "https://www.example.com"; // CHANGE THIS
+$siteUrl  = https://galaxy-luxury-kitchenware-zzciv.ondigitalocean.app/
 $canonicalUrl = rtrim($siteUrl, "/") . "/";
 
 // Brand visuals (paths relative to this index.php)
 $images = [
-  "hero"     => "hero-luxury-kitchen.jpg",  // 21:9
-  "about"    => "about-showroom.jpg",       // 4:3
-  "svc1"     => "services-collection.jpg",  // 3:2
-  "svc2"     => "services-sourcing.jpg",    // 3:2
-  "feature1" => "feature-artisan.jpg",      // 1:1
-  "feature2" => "feature-tableware.jpg",    // 1:1
-  "feature3" => "feature-cookware.jpg",     // 1:1
-  "tall"     => "feature-tall.jpg",         // 4:5
-  "contact"  => "contact-banner.jpg",       // 16:9
+  "hero"     => "hero-luxury-kitchen.webp",  // 21:9
+  "about"    => "about-showroom.webp",       // 4:3
+  "svc1"     => "services-collection.webp",  // 3:2
+  "svc2"     => "services-sourcing.webp",    // 3:2
+  "feature1" => "feature-artisan.webp",      // 1:1
+  "feature2" => "feature-tableware.webp",    // 1:1
+  "feature3" => "feature-cookware.webp",     // 1:1
+  "tall"     => "feature-tall.webp",         // 4:5
+  "contact"  => "contact-banner.webp",       // 16:9
 ];
 
 // For better deliverability: ideally use an address on your domain (e.g. no-reply@yourdomain.com)
@@ -1013,3 +1013,4 @@ $ogImage = rtrim($siteUrl, "/") . "/" . $images["hero"]; // best effort
   </script>
 </body>
 </html>
+
