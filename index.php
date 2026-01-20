@@ -11,7 +11,7 @@ $phone    = "4044840250";
 $emailTo  = "galaxyluxurykitchen@mail.com";
 
 // IMPORTANT for SEO: replace with your real domain once hosted
-$siteUrl  = "https://www.example.com"; // CHANGE THIS
+$siteUrl  = "https://galaxy-luxury-kitchenware-sc5h4.ondigitalocean.app/"; 
 $canonicalUrl = rtrim($siteUrl, "/") . "/";
 
 // Brand visuals (paths relative to this index.php)
@@ -1013,3 +1013,4 @@ $ogImage = rtrim($siteUrl, "/") . "/" . $images["hero"]; // best effort
   </script>
 </body>
 </html>
+
